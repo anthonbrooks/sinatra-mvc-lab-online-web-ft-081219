@@ -1,7 +1,7 @@
 class PigLatinizer 
   attr_reader :input
   
-  def initialize(input)
+  def piglatinize(input)
     @input = input.downcase
   end 
 end 
